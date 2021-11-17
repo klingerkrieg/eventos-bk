@@ -1,0 +1,305 @@
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  min-height: 520px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 4em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.stripe.divider.header {
+  margin: 3em 0em;
+}
+
+.footer.segment {
+  padding: 2em 0em;
+}
+
+.secondary.top.menu .toc.item {
+  display: none;
+}
+
+.masthead {
+  border:none !important;
+}
+
+@media(max-width: 700px) {
+  .ui.fixed.menu {
+    display: none;
+  }
+  .secondary.top.menu .item,
+  .secondary.top.menu .menu {
+    display: none;
+  }
+  .secondary.top.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+
+  /**
+  * Caso esteja em tela pequena o menu sempre será verde
+  */
+  .masthead{
+    background-position-y: 60px !important;
+    background-size: 700px !important;
+  }
+
+  .logo_space {
+    margin-top: 125px;
+  }
+
+  .logo_space img{
+    width: 390px !important;
+    top: 0px !important;
+  }
+  
+}
+
+
+.logo_space img{
+  position: relative;
+  top: 205px;
+  width:550px;
+}
+
+#page-header {
+  background: url(img/header-background.svg) no-repeat center center / cover;
+  background-size: 955px;
+  background-position-y: 85px;
+}
+
+.ui.form .error.message,
+.ui.form .success.message,
+.ui.form .warning.message {
+  display: inherit;
+}
+
+
+
+.text p{
+  text-align: justify;
+}
+
+.img-circle {
+
+  border-radius: 50%;
+
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+@media(max-width: 700px) {
+  .timeline-inverted-with-low-size{
+    float: right !important;
+    text-align: left !important;
+    padding: 0 20px 0 70px !important;
+  }
+}
+
+.clear{
+  clear:both;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right !important;
+  text-align: left !important;
+  padding: 0 20px 0 100px !important;
+}
+
+.timeline > li .timeline-panel {
+  padding: 0 20px 20px 30px !important;
+}
+
+.timeline .timeline-heading h4 {
+  color: #1e70bf;
+}
+
+.timeline > li .timeline-image {
+  background-color: #1e70bf;
+}
+
+.fa-plus{
+  font-size:105px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+
+  background: rgba(65, 131, 196, 0.5);
+
+}
+
+.ui.cards {
+  margin: 0px;
+}
+
+.modal_ajust .description{
+  width:90% !important;
+}
+
+.ui.text.container.programacao_width {
+  max-width:1200px !important;
+  width:80%;
+}
+
+
+.card{
+  cursor: pointer;
+}
+
+@media(max-width: 700px) {
+  .gt_mobile_ajust{
+    padding-bottom: 200px;
+  }
+}
+
+
+.logoMenu{
+  width:230px;
+}
+
+.logoMenu img{
+  width:100% !important;
+}
+
+.verde{
+  background-color:#00B050 !important;
+}
+
+.verde a {
+  color:white !important;
+}
+
+.xmassive .ui.container {
+  height: 70px;
+}
+
+.xmassive .ui.container a {
+  font-size:16px;
+}
+
+.footer .divider {
+  margin-top:0px;
+  margin-bottom:40px;
+}
+
+a {
+  color:#21ba45;
+}
+
+
+a:hover {
+  color:#25863b;
+  text-decoration: underline;
+}
+
+
+.perfil {
+  width:200px;
+  text-align: center;
+}
+
+.perfil span{
+  width: 100%;
+}
+
+.perfil #second {
+  display:none;
+}
+
+.checkbox label{
+  cursor:pointer !important;
+}
+
+@media(min-width: 700px) {
+  .on_mobile{
+    display:none;
+  }
+}
+
+@media(max-width: 700px) {
+  .on_pc{
+    display:none;
+  }
+}
+
+
+.menu a{
+  text-transform: uppercase !important;
+}
+
+.ui.continuo:after, .ui.continuo:before{
+  height: calc(100% - 0rem) !important;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.menuAlert{
+  color: red;
+  position: relative;
+  top: -15px;
+  left:-5px;
+}

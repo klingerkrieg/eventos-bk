@@ -1,0 +1,20 @@
+{
+    "name": "ivmelo/suap-api-php",
+    "description": "Wrapper PHP para a API do SUAP.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivanilson Melo",
+            "email": "meloivanilson@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ivmelo\\SUAP": "third_party/suap"
+        }
+    }
+}

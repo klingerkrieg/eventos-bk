@@ -1,0 +1,88 @@
+#page-header{
+    background: none;
+    background-size: 0px;
+    background-position-y: 0px;
+}
+
+.masthead.segment {
+    min-height: 0px;
+    padding: 0em 0em;
+}
+
+body.pushable {
+    background: #ffffff!important;
+}
+
+.pushable>.pusher {
+    min-height: 85%;
+}
+
+
+.invalid{
+    color:#9f3a38;
+  }
+  
+
+.lineHeight{
+    line-height: 2.5 !important;
+    cursor:pointer;
+}
+
+.date{
+    color:rgb(170, 170, 170) !important;
+    font-weight: lighter;
+}
+
+
+.area_interna{
+    min-height: 363px;
+}
+
+.minicurso_card{
+    width:100% !important;
+}
+
+.ui.inverted.vertical.footer.segment{
+    margin-top:20px;
+}
+
+.horarios {
+    display:flex;
+}
+
+.horarios div {
+    padding-right:5px;
+    padding-left:5px;
+    border-right:1px solid;
+}
+
+.horarios div:last-child{
+    border-right:none;
+}
+
+.lastColumnSubmissoes{
+    max-width:200px;
+    text-align:center !important;
+}
+
+@media(min-width: 700px) {
+    .on_mobile{
+      display:none;
+    }
+  }
+  
+  @media(max-width: 700px) {
+    .on_pc{
+      display:none;
+    }
+  }
+
+
+.verde .menu_superior {
+    color:white !important;
+}
+
+a.item {
+    color:black;
+}
+
